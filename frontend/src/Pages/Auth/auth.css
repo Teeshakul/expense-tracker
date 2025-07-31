@@ -1,0 +1,78 @@
+.lnk{
+    text-decoration: none;
+}
+.btnStyle{
+    background-color: red;
+    border: 2px solid red;
+}
+.btnStyle:hover{
+    background-color: rgb(75, 11, 11);
+}.auth-page-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e1e1e, #2b2b2b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.auth-page-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(145deg, #1a1a1a, #232323);
+  background-attachment: fixed;
+}
+
+.auth-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 500px;
+  color: white;
+}
+
+.auth-card h2 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.auth-card .form-control {
+  background-color: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.auth-card .form-control::placeholder {
+  color: #ccc;
+}
+
+.auth-card .btnStyle {
+  background-color: #ffcc00;
+  border: none;
+  color: black;
+  font-weight: 600;
+  border-radius: 8px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.auth-card .btnStyle:hover {
+  background-color: #e6b800;
+  transform: translateY(-2px);
+}
+
+.auth-card .lnk {
+  text-decoration: underline;
+  font-size: 0.95rem;
+}
+
+.auth-card .lnk:hover {
+  color: #ffcc00;
+  text-decoration: none;
+}
